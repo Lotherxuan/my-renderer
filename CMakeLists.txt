@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.5)
+project(my-render)
+# set(SOURCES src/*)
+# set(SOURCES src/tgaimage.cc src/main.cc)
+aux_source_directory(${PROJECT_SOURCE_DIR}/src SOURCES)
+add_executable(${PROJECT_NAME} ${SOURCES})
+target_include_directories(my-render PRIVATE ${PROJECT_SOURCE_DIR}/include)
