@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/geometry.h
+cmath
+-
+iostream
+-
+
+../include/model.h
+vector
+-
+geometry.h
+../include/geometry.h
+
+../include/tgaimage.h
+fstream
+-
+
+/home/lotherxuan/workspace/my-renderer/src/main.cc
+algorithm
+-
+array
+-
+iostream
+-
+limits
+-
+vector
+-
+geometry.h
+/home/lotherxuan/workspace/my-renderer/src/geometry.h
+model.h
+/home/lotherxuan/workspace/my-renderer/src/model.h
+tgaimage.h
+/home/lotherxuan/workspace/my-renderer/src/tgaimage.h
+

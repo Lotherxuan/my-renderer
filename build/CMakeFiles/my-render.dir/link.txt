@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/my-render.dir/src/main.cc.o CMakeFiles/my-render.dir/src/model.cc.o CMakeFiles/my-render.dir/src/tgaimage.cc.o -o my-render 

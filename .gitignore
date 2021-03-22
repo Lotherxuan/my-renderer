@@ -1,4 +1,4 @@
-*.o
-.vscode/*
-build/**
-unused/**
+# *.o
+# .vscode/*
+# build/**
+# unused/**
