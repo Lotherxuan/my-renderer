@@ -1,1 +1,9 @@
-# The template of Lotherxuan's github repos
+## build
+
+```shell
+mkdir build
+cd build
+cmake ..
+make
+```
+
