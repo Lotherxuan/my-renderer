@@ -14,7 +14,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -29,7 +30,8 @@
 					"name" : "my-render",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,8 +40,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "my-render::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-my-render-f7c1e1a6acae217d9fb7.json",
+					"jsonFile" : "target-my-render-e07194d7d043daeb2dbd.json",
 					"name" : "my-render",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shader_library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shader_library-bd55af1e015aedc9571c.json",
+					"name" : "shader_library",
 					"projectIndex" : 0
 				}
 			]

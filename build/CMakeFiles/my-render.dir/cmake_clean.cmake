@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/my-render.dir/src/main.cc.o"
-  "CMakeFiles/my-render.dir/src/model.cc.o"
-  "CMakeFiles/my-render.dir/src/tgaimage.cc.o"
+  "CMakeFiles/my-render.dir/src/geometry.cpp.o"
+  "CMakeFiles/my-render.dir/src/main.cpp.o"
+  "CMakeFiles/my-render.dir/src/model.cpp.o"
+  "CMakeFiles/my-render.dir/src/our_gl.cpp.o"
+  "CMakeFiles/my-render.dir/src/tgaimage.cpp.o"
   "my-render"
   "my-render.pdb"
 )

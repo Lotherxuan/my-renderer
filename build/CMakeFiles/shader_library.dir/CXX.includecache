@@ -40,19 +40,13 @@ fstream
 our_gl.h
 ../lib/shaders/include/our_gl.h
 
-/home/lotherxuan/workspace/my-renderer/src/main.cpp
-iostream
--
-vector
+/home/lotherxuan/workspace/my-renderer/lib/shaders/src/gouraud_shader.cc
+gouraud_shader.h
+/home/lotherxuan/workspace/my-renderer/lib/shaders/src/gouraud_shader.h
+algorithm
 -
 geometry.h
-/home/lotherxuan/workspace/my-renderer/src/geometry.h
-gouraud_shader.h
-/home/lotherxuan/workspace/my-renderer/src/gouraud_shader.h
+/home/lotherxuan/workspace/my-renderer/lib/shaders/src/geometry.h
 model.h
-/home/lotherxuan/workspace/my-renderer/src/model.h
-our_gl.h
-/home/lotherxuan/workspace/my-renderer/src/our_gl.h
-tgaimage.h
-/home/lotherxuan/workspace/my-renderer/src/tgaimage.h
+/home/lotherxuan/workspace/my-renderer/lib/shaders/src/model.h
 

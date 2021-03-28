@@ -1,3 +1,4 @@
 /home/lotherxuan/workspace/my-renderer/build/CMakeFiles/rebuild_cache.dir
 /home/lotherxuan/workspace/my-renderer/build/CMakeFiles/edit_cache.dir
 /home/lotherxuan/workspace/my-renderer/build/CMakeFiles/my-render.dir
+/home/lotherxuan/workspace/my-renderer/build/CMakeFiles/shader_library.dir

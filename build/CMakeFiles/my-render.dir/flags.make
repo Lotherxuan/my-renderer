@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/lotherxuan/workspace/my-renderer/include
+CXX_INCLUDES = -I/home/lotherxuan/workspace/my-renderer/include -I/home/lotherxuan/workspace/my-renderer/lib/shaders/include
 
 CXX_FLAGS = -g -O2 -std=c++14
 

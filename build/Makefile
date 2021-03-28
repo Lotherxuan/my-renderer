@@ -142,86 +142,180 @@ my-render/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/build
 .PHONY : my-render/fast
 
-src/main.o: src/main.cc.o
+#=============================================================================
+# Target rules for targets named shader_library
+
+# Build rule for target.
+shader_library: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shader_library
+.PHONY : shader_library
+
+# fast build rule for target.
+shader_library/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader_library.dir/build.make CMakeFiles/shader_library.dir/build
+.PHONY : shader_library/fast
+
+lib/shaders/src/gouraud_shader.o: lib/shaders/src/gouraud_shader.cc.o
+
+.PHONY : lib/shaders/src/gouraud_shader.o
+
+# target to build an object file
+lib/shaders/src/gouraud_shader.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader_library.dir/build.make CMakeFiles/shader_library.dir/lib/shaders/src/gouraud_shader.cc.o
+.PHONY : lib/shaders/src/gouraud_shader.cc.o
+
+lib/shaders/src/gouraud_shader.i: lib/shaders/src/gouraud_shader.cc.i
+
+.PHONY : lib/shaders/src/gouraud_shader.i
+
+# target to preprocess a source file
+lib/shaders/src/gouraud_shader.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader_library.dir/build.make CMakeFiles/shader_library.dir/lib/shaders/src/gouraud_shader.cc.i
+.PHONY : lib/shaders/src/gouraud_shader.cc.i
+
+lib/shaders/src/gouraud_shader.s: lib/shaders/src/gouraud_shader.cc.s
+
+.PHONY : lib/shaders/src/gouraud_shader.s
+
+# target to generate assembly for a file
+lib/shaders/src/gouraud_shader.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shader_library.dir/build.make CMakeFiles/shader_library.dir/lib/shaders/src/gouraud_shader.cc.s
+.PHONY : lib/shaders/src/gouraud_shader.cc.s
+
+src/geometry.o: src/geometry.cpp.o
+
+.PHONY : src/geometry.o
+
+# target to build an object file
+src/geometry.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/geometry.cpp.o
+.PHONY : src/geometry.cpp.o
+
+src/geometry.i: src/geometry.cpp.i
+
+.PHONY : src/geometry.i
+
+# target to preprocess a source file
+src/geometry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/geometry.cpp.i
+.PHONY : src/geometry.cpp.i
+
+src/geometry.s: src/geometry.cpp.s
+
+.PHONY : src/geometry.s
+
+# target to generate assembly for a file
+src/geometry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/geometry.cpp.s
+.PHONY : src/geometry.cpp.s
+
+src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
 
 # target to build an object file
-src/main.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/main.cc.o
-.PHONY : src/main.cc.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-src/main.i: src/main.cc.i
+src/main.i: src/main.cpp.i
 
 .PHONY : src/main.i
 
 # target to preprocess a source file
-src/main.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/main.cc.i
-.PHONY : src/main.cc.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-src/main.s: src/main.cc.s
+src/main.s: src/main.cpp.s
 
 .PHONY : src/main.s
 
 # target to generate assembly for a file
-src/main.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/main.cc.s
-.PHONY : src/main.cc.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-src/model.o: src/model.cc.o
+src/model.o: src/model.cpp.o
 
 .PHONY : src/model.o
 
 # target to build an object file
-src/model.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/model.cc.o
-.PHONY : src/model.cc.o
+src/model.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/model.cpp.o
+.PHONY : src/model.cpp.o
 
-src/model.i: src/model.cc.i
+src/model.i: src/model.cpp.i
 
 .PHONY : src/model.i
 
 # target to preprocess a source file
-src/model.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/model.cc.i
-.PHONY : src/model.cc.i
+src/model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/model.cpp.i
+.PHONY : src/model.cpp.i
 
-src/model.s: src/model.cc.s
+src/model.s: src/model.cpp.s
 
 .PHONY : src/model.s
 
 # target to generate assembly for a file
-src/model.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/model.cc.s
-.PHONY : src/model.cc.s
+src/model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/model.cpp.s
+.PHONY : src/model.cpp.s
 
-src/tgaimage.o: src/tgaimage.cc.o
+src/our_gl.o: src/our_gl.cpp.o
+
+.PHONY : src/our_gl.o
+
+# target to build an object file
+src/our_gl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/our_gl.cpp.o
+.PHONY : src/our_gl.cpp.o
+
+src/our_gl.i: src/our_gl.cpp.i
+
+.PHONY : src/our_gl.i
+
+# target to preprocess a source file
+src/our_gl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/our_gl.cpp.i
+.PHONY : src/our_gl.cpp.i
+
+src/our_gl.s: src/our_gl.cpp.s
+
+.PHONY : src/our_gl.s
+
+# target to generate assembly for a file
+src/our_gl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/our_gl.cpp.s
+.PHONY : src/our_gl.cpp.s
+
+src/tgaimage.o: src/tgaimage.cpp.o
 
 .PHONY : src/tgaimage.o
 
 # target to build an object file
-src/tgaimage.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/tgaimage.cc.o
-.PHONY : src/tgaimage.cc.o
+src/tgaimage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/tgaimage.cpp.o
+.PHONY : src/tgaimage.cpp.o
 
-src/tgaimage.i: src/tgaimage.cc.i
+src/tgaimage.i: src/tgaimage.cpp.i
 
 .PHONY : src/tgaimage.i
 
 # target to preprocess a source file
-src/tgaimage.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/tgaimage.cc.i
-.PHONY : src/tgaimage.cc.i
+src/tgaimage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/tgaimage.cpp.i
+.PHONY : src/tgaimage.cpp.i
 
-src/tgaimage.s: src/tgaimage.cc.s
+src/tgaimage.s: src/tgaimage.cpp.s
 
 .PHONY : src/tgaimage.s
 
 # target to generate assembly for a file
-src/tgaimage.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/tgaimage.cc.s
-.PHONY : src/tgaimage.cc.s
+src/tgaimage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my-render.dir/build.make CMakeFiles/my-render.dir/src/tgaimage.cpp.s
+.PHONY : src/tgaimage.cpp.s
 
 # Help Target
 help:
@@ -232,12 +326,22 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... my-render"
+	@echo "... shader_library"
+	@echo "... lib/shaders/src/gouraud_shader.o"
+	@echo "... lib/shaders/src/gouraud_shader.i"
+	@echo "... lib/shaders/src/gouraud_shader.s"
+	@echo "... src/geometry.o"
+	@echo "... src/geometry.i"
+	@echo "... src/geometry.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/model.o"
 	@echo "... src/model.i"
 	@echo "... src/model.s"
+	@echo "... src/our_gl.o"
+	@echo "... src/our_gl.i"
+	@echo "... src/our_gl.s"
 	@echo "... src/tgaimage.o"
 	@echo "... src/tgaimage.i"
 	@echo "... src/tgaimage.s"

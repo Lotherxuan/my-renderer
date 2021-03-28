@@ -1,0 +1,2 @@
+/usr/bin/ar qc libshader_library.a CMakeFiles/shader_library.dir/lib/shaders/src/gouraud_shader.cc.o
+/usr/bin/ranlib libshader_library.a

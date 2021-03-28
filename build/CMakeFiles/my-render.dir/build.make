@@ -76,60 +76,91 @@ include CMakeFiles/my-render.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/my-render.dir/flags.make
 
-CMakeFiles/my-render.dir/src/main.cc.o: CMakeFiles/my-render.dir/flags.make
-CMakeFiles/my-render.dir/src/main.cc.o: ../src/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lotherxuan/workspace/my-renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my-render.dir/src/main.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my-render.dir/src/main.cc.o -c /home/lotherxuan/workspace/my-renderer/src/main.cc
+CMakeFiles/my-render.dir/src/geometry.cpp.o: CMakeFiles/my-render.dir/flags.make
+CMakeFiles/my-render.dir/src/geometry.cpp.o: ../src/geometry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lotherxuan/workspace/my-renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my-render.dir/src/geometry.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my-render.dir/src/geometry.cpp.o -c /home/lotherxuan/workspace/my-renderer/src/geometry.cpp
 
-CMakeFiles/my-render.dir/src/main.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my-render.dir/src/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lotherxuan/workspace/my-renderer/src/main.cc > CMakeFiles/my-render.dir/src/main.cc.i
+CMakeFiles/my-render.dir/src/geometry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my-render.dir/src/geometry.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lotherxuan/workspace/my-renderer/src/geometry.cpp > CMakeFiles/my-render.dir/src/geometry.cpp.i
 
-CMakeFiles/my-render.dir/src/main.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my-render.dir/src/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lotherxuan/workspace/my-renderer/src/main.cc -o CMakeFiles/my-render.dir/src/main.cc.s
+CMakeFiles/my-render.dir/src/geometry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my-render.dir/src/geometry.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lotherxuan/workspace/my-renderer/src/geometry.cpp -o CMakeFiles/my-render.dir/src/geometry.cpp.s
 
-CMakeFiles/my-render.dir/src/model.cc.o: CMakeFiles/my-render.dir/flags.make
-CMakeFiles/my-render.dir/src/model.cc.o: ../src/model.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lotherxuan/workspace/my-renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my-render.dir/src/model.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my-render.dir/src/model.cc.o -c /home/lotherxuan/workspace/my-renderer/src/model.cc
+CMakeFiles/my-render.dir/src/main.cpp.o: CMakeFiles/my-render.dir/flags.make
+CMakeFiles/my-render.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lotherxuan/workspace/my-renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my-render.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my-render.dir/src/main.cpp.o -c /home/lotherxuan/workspace/my-renderer/src/main.cpp
 
-CMakeFiles/my-render.dir/src/model.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my-render.dir/src/model.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lotherxuan/workspace/my-renderer/src/model.cc > CMakeFiles/my-render.dir/src/model.cc.i
+CMakeFiles/my-render.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my-render.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lotherxuan/workspace/my-renderer/src/main.cpp > CMakeFiles/my-render.dir/src/main.cpp.i
 
-CMakeFiles/my-render.dir/src/model.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my-render.dir/src/model.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lotherxuan/workspace/my-renderer/src/model.cc -o CMakeFiles/my-render.dir/src/model.cc.s
+CMakeFiles/my-render.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my-render.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lotherxuan/workspace/my-renderer/src/main.cpp -o CMakeFiles/my-render.dir/src/main.cpp.s
 
-CMakeFiles/my-render.dir/src/tgaimage.cc.o: CMakeFiles/my-render.dir/flags.make
-CMakeFiles/my-render.dir/src/tgaimage.cc.o: ../src/tgaimage.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lotherxuan/workspace/my-renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my-render.dir/src/tgaimage.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my-render.dir/src/tgaimage.cc.o -c /home/lotherxuan/workspace/my-renderer/src/tgaimage.cc
+CMakeFiles/my-render.dir/src/model.cpp.o: CMakeFiles/my-render.dir/flags.make
+CMakeFiles/my-render.dir/src/model.cpp.o: ../src/model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lotherxuan/workspace/my-renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my-render.dir/src/model.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my-render.dir/src/model.cpp.o -c /home/lotherxuan/workspace/my-renderer/src/model.cpp
 
-CMakeFiles/my-render.dir/src/tgaimage.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my-render.dir/src/tgaimage.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lotherxuan/workspace/my-renderer/src/tgaimage.cc > CMakeFiles/my-render.dir/src/tgaimage.cc.i
+CMakeFiles/my-render.dir/src/model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my-render.dir/src/model.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lotherxuan/workspace/my-renderer/src/model.cpp > CMakeFiles/my-render.dir/src/model.cpp.i
 
-CMakeFiles/my-render.dir/src/tgaimage.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my-render.dir/src/tgaimage.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lotherxuan/workspace/my-renderer/src/tgaimage.cc -o CMakeFiles/my-render.dir/src/tgaimage.cc.s
+CMakeFiles/my-render.dir/src/model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my-render.dir/src/model.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lotherxuan/workspace/my-renderer/src/model.cpp -o CMakeFiles/my-render.dir/src/model.cpp.s
+
+CMakeFiles/my-render.dir/src/our_gl.cpp.o: CMakeFiles/my-render.dir/flags.make
+CMakeFiles/my-render.dir/src/our_gl.cpp.o: ../src/our_gl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lotherxuan/workspace/my-renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/my-render.dir/src/our_gl.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my-render.dir/src/our_gl.cpp.o -c /home/lotherxuan/workspace/my-renderer/src/our_gl.cpp
+
+CMakeFiles/my-render.dir/src/our_gl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my-render.dir/src/our_gl.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lotherxuan/workspace/my-renderer/src/our_gl.cpp > CMakeFiles/my-render.dir/src/our_gl.cpp.i
+
+CMakeFiles/my-render.dir/src/our_gl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my-render.dir/src/our_gl.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lotherxuan/workspace/my-renderer/src/our_gl.cpp -o CMakeFiles/my-render.dir/src/our_gl.cpp.s
+
+CMakeFiles/my-render.dir/src/tgaimage.cpp.o: CMakeFiles/my-render.dir/flags.make
+CMakeFiles/my-render.dir/src/tgaimage.cpp.o: ../src/tgaimage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lotherxuan/workspace/my-renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/my-render.dir/src/tgaimage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my-render.dir/src/tgaimage.cpp.o -c /home/lotherxuan/workspace/my-renderer/src/tgaimage.cpp
+
+CMakeFiles/my-render.dir/src/tgaimage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my-render.dir/src/tgaimage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lotherxuan/workspace/my-renderer/src/tgaimage.cpp > CMakeFiles/my-render.dir/src/tgaimage.cpp.i
+
+CMakeFiles/my-render.dir/src/tgaimage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my-render.dir/src/tgaimage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lotherxuan/workspace/my-renderer/src/tgaimage.cpp -o CMakeFiles/my-render.dir/src/tgaimage.cpp.s
 
 # Object files for target my-render
 my__render_OBJECTS = \
-"CMakeFiles/my-render.dir/src/main.cc.o" \
-"CMakeFiles/my-render.dir/src/model.cc.o" \
-"CMakeFiles/my-render.dir/src/tgaimage.cc.o"
+"CMakeFiles/my-render.dir/src/geometry.cpp.o" \
+"CMakeFiles/my-render.dir/src/main.cpp.o" \
+"CMakeFiles/my-render.dir/src/model.cpp.o" \
+"CMakeFiles/my-render.dir/src/our_gl.cpp.o" \
+"CMakeFiles/my-render.dir/src/tgaimage.cpp.o"
 
 # External object files for target my-render
 my__render_EXTERNAL_OBJECTS =
 
-my-render: CMakeFiles/my-render.dir/src/main.cc.o
-my-render: CMakeFiles/my-render.dir/src/model.cc.o
-my-render: CMakeFiles/my-render.dir/src/tgaimage.cc.o
+my-render: CMakeFiles/my-render.dir/src/geometry.cpp.o
+my-render: CMakeFiles/my-render.dir/src/main.cpp.o
+my-render: CMakeFiles/my-render.dir/src/model.cpp.o
+my-render: CMakeFiles/my-render.dir/src/our_gl.cpp.o
+my-render: CMakeFiles/my-render.dir/src/tgaimage.cpp.o
 my-render: CMakeFiles/my-render.dir/build.make
+my-render: libshader_library.a
 my-render: CMakeFiles/my-render.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lotherxuan/workspace/my-renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable my-render"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lotherxuan/workspace/my-renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable my-render"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my-render.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
